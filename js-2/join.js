@@ -3,7 +3,7 @@ function join(numbers) {
     var cadena = '';
 
     for (let i = 0; i < numbers.length; i++) {
-        cadena = cadena + ' ' +numbers[i];
+        cadena = `${cadena} ${numbers[i]}`;
     }
 
     return cadena;

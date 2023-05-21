@@ -1,13 +1,13 @@
 function max(numbers) {
 
     var numMax;
-    var provisional = 0;
+    let provisional = 0;
 
     for (let i = 0; i < numbers.length; i++) {
         if (provisional < numbers[i]) {
             provisional = numbers[i];
             if (provisional > 0) {
-                numMax = provisional
+                numMax = provisional;
             }
         }
     }
